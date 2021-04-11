@@ -1,0 +1,98 @@
+Hello everyone, my name is Mark.
+
+Codepen project link: https://codepen.io/Goody1/pen/vYgpjax?editors=1100
+
+Review Questions: 
+
+    1. What is Semantic HTML?
+An element that clearly describes its meaning to both the browser and developer.
+    2. What is HTML used for?
+As the standard markup language for web pages.
+    3. What is an attribute and where do we put it?
+Attributes provide additional information about HTML elements. They are always specified in the start tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+It is the main header for the page, should only be used once.
+    5. Name two tags that have required attributes
+<a> and <img
+    6. What do we put in the head of our HTML document?
+It contains the meta information about the HTML page.
+    7. What is an id?
+It is a unique ID for an element, can only be used on one element.
+    8. What elements can I add an id to?
+Any HTML element can have an ID.
+    9. How many times can I use the same id on a page?
+Just once, as it is a unique identifier.
+    10. What is a class?
+It is used to give an HTML element a “class”.
+    11. What elements can I add a class to?
+Any HTML element can be assigned a class.
+    12. How many times can I use the same class on a page?
+The same class can be used as many times as needed on a page.
+    13. How do I get my link to open in a new tab?
+By adding =”_blank” after the link address.
+    14. What is the alt attribute in the image tag used for?
+It specifies alternate text for an image, incase the image either can’t be loaded or the user is using a screen reader.
+    15. How do I reference an id?
+#idname
+    16. What is the difference between a section and a div
+A section groups together the content inside, a div doesn’t do anything on its own. 
+    17. What is CSS used for?
+It is used for styling of an HTML page.
+    18. How to we select an element? Example - every h2 on the page
+H2 { }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each 
+One
+An ID is a unique identifier and can only be used once, whereas a class is an identifier that can be used multiple times throughout. You could use “id” for an element you want to style uniquely on its own. You could apply the same “class” to multiple elements from the same section to style that group of elements different from the same elements in other areas.
+    20. How do we select classes in CSS?
+.class-name
+    21. How do we select a p element with a single class of “human””?
+.human p {  }
+    22. What is a parent child selector? When would this be useful?
+:first-child  This would be useful if you wanted to style, say the first <p>, element of every section the same.
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar a {  }
+    24. What is a pseudo selector?
+They are selectors that select elements that are in a specific state.
+    25. What do we use the change the spacing between lines?
+By using the line-height property.
+    26. What do we use to change the spacing between letters?
+The letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Text-transform: uppercase; ect.
+    28. How do I add a 1px border around my div that is dotted and black?
+Div  {
+     Border: 1px dotted black;
+}
+    29. How do I select everything on the page?
+* {  }
+    30. How do I write a comment in CSS?
+/* comment here */
+    31. How do I find out what file I am in, when I am using the command line?
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls -al
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+By using the “git rm” command and specifying the file. You have to be careful because you could accidentally delete everything on your drive. There is no “are you sure” prompt and no recovery.
+    34. Why should I use version control?
+It is useful to keep track of changes made, and keep multiple team members working on the latest version.
+    35. How often should I commit to github?
+Whenever you finish a step.
+    36. What is the command we would use to push our repo up to github?
+Git push mark-goodwin.txt
+    37. Walk me through Lambda's git flow.
+Step 1- Forking. 
+Fork the repo over to my username.
+Step 2- Add PM as collaborator.
+Step 3- Clone. 
+Copy the https url, then run git clone “url” to clone the repo locally.
+Step 4- Branch. 
+Create branch by running git checkout -b firstname-lastname. The run git push origin firstname-lastname.
+Step 5- Submit a pull request part A
+	Base fork(my fork)-base(main) <- Head fork(my fork)-compare(my branch)
+Step 5- Submit a pull request part b
+	Add the PM who is a collaborator as a reviewer.
+Step 6- Complete
+
+
+ 
+
